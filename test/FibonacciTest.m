@@ -6,7 +6,7 @@ function testFibonacci_1(testCases)
   actual = Fibonacci(5);
   exp = 5 ;
   verifyEqual(testCases,actual,exp,'Wrong output')
-  testCases.assertEqual(1,2);
+  %testCases.assertEqual(1,2);
 end
 
 %Testcases-2
